@@ -1,117 +1,123 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Eng. Md. Amirul Islam - Portfolio</title>
-<style>
-    body {
-        margin: 0;
-        font-family: Arial, sans-serif;
-        background: #f5f7fa;
-        color: #333;
-    }
-    .container {
-        max-width: 1000px;
-        margin: auto;
-        padding: 20px;
-    }
-    .hero {
-        text-align: center;
-        padding: 50px 20px;
-        background: linear-gradient(135deg, #007bff, #00a8ff);
-        color: white;
-        border-radius: 20px;
-        margin-bottom: 40px;
-    }
-    .hero img {
-        width: 180px;
-        height: 180px;
-        border-radius: 50%;
-        border: 4px solid #fff;
-        object-fit: cover;
-    }
-    h2 {
-        margin-top: 40px;
-        color: #007bff;
-    }
-    .card {
-        background: dark;
-        padding: 20px;
-        border-radius: 15px;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        margin-bottom: 25px;
-        line-height: 1.6;
-    }
-    .contact a {
-        color: #007bff;
-        text-decoration: none;
-    }
-    .projects {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 20px;
-    }
-    .project-card {
-        background: dark;
-        padding: 20px;
-        border-radius: 15px;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
-    footer {
-        text-align: center;
-        padding: 30px;
-        margin-top: 50px;
-        color: gray;
-    }
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MD. AMIRUL ISLAM — Electrical Engineer</title>
+  <style>
+    /* Simple clean styling */
+    body { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:0; color:#222; background:#f7f8fb; }
+    .container{max-width:980px;margin:28px auto;padding:24px;background:#fff;border-radius:10px;box-shadow:0 6px 18px rgba(28,36,50,0.06);}
+    header{display:flex;gap:18px;align-items:center}
+    .avatar{width:110px;height:110px;border-radius:10px;background:#e9eef6;display:flex;align-items:center;justify-content:center;font-weight:600;color:#556;}
+    h1{margin:0;font-size:1.6rem}
+    p.lead{margin:.25rem 0 8px;color:#444}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:20px;margin-top:18px}
+    section{padding:12px;border-radius:8px;background:#fbfcff}
+    h2{margin:0 0 8px;font-size:1.05rem}
+    ul{margin:0;padding-left:1.1rem}
+    .contact{font-size:.95rem;line-height:1.5}
+    .small{font-size:.9rem;color:#666}
+    footer{margin-top:18px;text-align:center;color:#777;font-size:.9rem}
+    @media (max-width:900px){ .grid{grid-template-columns:1fr} }
+    .badge{display:inline-block;padding:6px 10px;border-radius:999px;background:#eef3ff;color:#1b3b9a;font-weight:600;font-size:.85rem}
+    .muted{color:#666;font-size:.95rem}
+  </style>
 </head>
 <body>
-
-<div class="container">
-    <div class="hero">
-        <img src="profile.jpg" alt="Eng. Md. Amirul Islam">
-        <h1>Eng. Md. Amirul Islam</h1>
-        <h3>Electrical & Electronics Engineer (EEE)</h3>
-        <h4>Operation & Maintenance Engineer – TBEA Co. Ltd.</h4>
-    </div>
-
-    <h2>About Me</h2>
-    <div class="card">
-        <p>I am <strong>Eng. Md. Amirul Islam</strong>, an experienced Electrical & Electronics Engineer (EEE) with <strong>2.5 years</strong> of professional experience working on major national-level electrical infrastructure projects.</p>
-        <p>I currently serve as an <strong>Operation & Maintenance Engineer</strong> at <strong>TBEA Co. Ltd., Dhaka, Bangladesh</strong>.</p>
-        <p><strong>Major Project Experience:</strong></p>
-        <ul>
-            <li>1. Hazrat Shahjalal International Airport – Terminal 3 (Dhaka)</li>
-            <li>2. Expansion & Strengthening of Power System Network under DPDC Area (ESPN Project)</li>
-        </ul>
-    </div>
-
-    <h2>Projects</h2>
-    <div class="projects">
-        <div class="project-card">
-            <h3>Airport Terminal-3 Project</h3>
-            <p>Electrical Operation, fault response,Generator maintenance coordination, Electrical Safety and monitoring of critical electrical systems within HSIA T3 expansion Project.</p>
+  <div class="container">
+    <header>
+      <div class="avatar">Upload<br>Photo</div>
+      <div>
+        <h1>MD. AMIRUL ISLAM</h1>
+        <div class="muted">Assistant Operation & Maintenance Engineer — Operation & Maintenance Department, TBEA Co. Ltd. <span style="font-weight:600">since June 2025</span></div>
+        <p class="lead">Electrical & Electronics Engineer experienced in DG commissioning, substation design (33/11 kV, 11/415 kV), site inspection, BOQ preparation, and technical documentation.</p>
+        <div style="margin-top:10px">
+          <span class="badge">Power Systems</span>
+          <span class="badge" style="margin-left:8px">Commissioning</span>
         </div>
-        <div class="project-card">
-            <h3>DPDC ESPN Project</h3>
-            <p>Involved in new substations, network strengthening, relay coordination, SCADA integration, and maintenance activities.</p>
-        </div>
-    </div>
+      </div>
+    </header>
 
-    <h2>Contact Me</h2>
-    <div class="card contact">
-        <p>📧 Email: <a href="mailto:amirulislam.eee18@gmail.com">amirulislam.eee18@gmail.com</a></p>
-        <p>📱 Phone: +8801315630427</p>
-        <p>💼 LinkedIn: <a href="https://www.linkedin.com/in/amirulislam-eng" target="_blank">linkedin.com</a></p>
-        <p>🐙 GitHub: <a href="https://github.com/engamirulislam" target="_blank">github.com/engamirulislam</a></p>
+    <div class="grid">
+      <main>
+        <section>
+          <h2>Experience</h2>
+          <div class="small">Assistant Operation & Maintenance Engineer — TBEA Co. Ltd. (since June 2025)</div>
+          <ul>
+            <li>Operation & maintenance duties for power equipment, substations and DG sets.</li>
+            <li>Site inspection, safety enforcement, and maintenance planning.</li>
+          </ul>
+
+          <div style="height:10px"></div>
+
+          <div class="small">Electrical Engineer — Cross-World Power Limited (Jun 2023 – Sep 2024)</div>
+          <ul>
+            <li>Project: Hazrat Shahjalal International Airport, Terminal-3 — DG commissioning (4 MVA × 6 = 24 MVA), SWGR inspections, earthing checks, cable termination & testing.</li>
+            <li>Design of substations, DB panels, SLDs, As-built drawings; BOQ & costing; material inspection & WIR.</li>
+          </ul>
+
+          <div style="height:10px"></div>
+          <h2>Internships & Training</h2>
+          <ul>
+            <li>Industrial Trainee, DESCO — exposure to 132/33/11 kV substations, SCADA, distribution. (Oct–Nov 2022)</li>
+            <li>Industrial Trainee, Samsung C&T Safety Academy — Basic & Fire Safety, High & Confined Space training. (Jun–Aug 2022)</li>
+          </ul>
+
+          <h2 style="margin-top:14px">Education</h2>
+          <ul>
+            <li>BSc in Electrical & Electronics Engineering, AIUB (2018–2022). CGPA: 3.17</li>
+          </ul>
+
+          <h2 style="margin-top:14px">Research & Projects</h2>
+          <ul>
+            <li>Renewable & IoT-based DC Universal Smart EV Charging Station (supervised: Nafiz Ahmed Chisty)</li>
+            <li>IoT-Based Distribution Transformer Monitoring & Protection (supervised: Mehedi Azad Shawon)</li>
+          </ul>
+        </section>
+
+        <section style="margin-top:14px">
+          <h2>Skills & Tools</h2>
+          <ul>
+            <li>AutoCAD 2D • Commissioning & Testing • Earthing & Protection checks</li>
+            <li>Microsoft 365 (Excel, Word, PowerPoint), MATLAB, C, Adobe Photoshop</li>
+            <li>Technical documentation, BOQ & Cost estimation, Site safety & inspection</li>
+          </ul>
+        </section>
+      </main>
+
+      <aside>
+        <section>
+          <h2>Contact</h2>
+          <div class="contact">
+            <div><strong>Phone:</strong> 01315630427</div>
+            <div><strong>Email:</strong> <a href="mailto:amirulislam.eee18@gmail.com">amirulislam.eee18@gmail.com</a></div>
+            <div><strong>Location:</strong> Mohammadpur, Dhaka</div>
+          </div>
+        </section>
+
+        <section style="margin-top:14px">
+          <h2>References</h2>
+          <div class="small">
+            Shahnewaz Mazid — Project Manager, Cross-World Power Limited. (Contact details available on CV.)<br>
+            MD. Kamrul Islam — Senior Executive, Madman Digital Limited.
+          </div>
+        </section>
+
+        <section style="margin-top:14px">
+          <h2>Downloads</h2>
+          <div class="small">
+            <a href="MD.%20AMIRUL%20ISLAM%20(2).pdf" download>Download CV (PDF)</a>
+          </div>
+        </section>
+      </aside>
     </div>
 
     <footer>
-        © 2025 Eng. Md. Amirul Islam. All rights reserved.
+      © <span id="year"></span> MD. AMIRUL ISLAM — Electrical & Electronics Engineer
     </footer>
-</div>
+  </div>
 
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
-
